@@ -1,0 +1,201 @@
+{
+ "title": "CSR Communication of Local and Global Brands During the February 6, 2023 Türkiye Earthquakes: Platform X Posts and Public Engagement Data",
+ "doi": "10.5281/zenodo.22042887",
+ "url": "https://zenodo.org/records/22042887",
+ "license": "CC BY 4.0",
+ "authors": [
+  "Altug Tanaltay",
+  "Raha Akhavan-Tabatabaei"
+ ],
+ "publisher": "Sabancı University",
+ "platform": "X (formerly Twitter)",
+ "coverage": {
+  "start": "2023-01-01",
+  "end": "2023-03-30"
+ },
+ "eventDate": "2023-02-06",
+ "files": [
+  {
+   "name": "brands_posts.csv",
+   "rows": 4617,
+   "columns": [
+    {
+     "name": "Tweet ID",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "Timestamp",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "Brand",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "Nationality",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "is_reply",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "is_retweet",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "image",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "video",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "brand_post_type",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "disaster_aid_action_type",
+     "missing": 4163,
+     "dtype": "str"
+    },
+    {
+     "name": "relief_effect_type",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "Comments",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "Retweets",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "Likes",
+     "missing": 0,
+     "dtype": "float64"
+    },
+    {
+     "name": "Industry",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "FollowersCount",
+     "missing": 0,
+     "dtype": "int64"
+    },
+    {
+     "name": "tag_count",
+     "missing": 0,
+     "dtype": "int64"
+    },
+    {
+     "name": "mention_count",
+     "missing": 0,
+     "dtype": "int64"
+    },
+    {
+     "name": "emoji_count",
+     "missing": 0,
+     "dtype": "int64"
+    },
+    {
+     "name": "disaster_period",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "url_count",
+     "missing": 0,
+     "dtype": "int64"
+    },
+    {
+     "name": "anger",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "disgust",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "fear",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "happy",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "neutral",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "sad",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "surprise",
+     "missing": 3733,
+     "dtype": "float64"
+    },
+    {
+     "name": "sampled_comments",
+     "missing": 3733,
+     "dtype": "float64"
+    }
+   ]
+  },
+  {
+   "name": "brands_comments.csv",
+   "rows": 27530,
+   "columns": [
+    {
+     "name": "Timestamp",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "Tweet ID",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "parent",
+     "missing": 0,
+     "dtype": "str"
+    },
+    {
+     "name": "has_parent",
+     "missing": 0,
+     "dtype": "bool"
+    },
+    {
+     "name": "predicted_label",
+     "missing": 0,
+     "dtype": "str"
+    }
+   ]
+  }
+ ]
+}

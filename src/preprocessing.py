@@ -24,6 +24,11 @@ import unicodedata
 from typing import List, Optional
 
 import nltk
+import os
+
+_LOCAL_NLTK = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nltk_data")
+if os.path.exists(_LOCAL_NLTK) and _LOCAL_NLTK not in nltk.data.path:
+    nltk.data.path.insert(0, _LOCAL_NLTK)
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
