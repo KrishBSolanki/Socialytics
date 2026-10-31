@@ -1,0 +1,7 @@
+[tool.pyrefly]
+search-path = [".", "src"]
+python-interpreter-path = "C:\\Users\\Neel\\AppData\\Local\\Python\\bin\\python.exe"
+
+[tool.pyrefly.errors]
+missing-import = "ignore"
+
