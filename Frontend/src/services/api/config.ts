@@ -1,9 +1,16 @@
+const getInitialBaseUrl = () => {
+  if (typeof window !== "undefined" && window.location?.hostname) {
+    return `${window.location.protocol}//${window.location.hostname}:8000/api/v1`;
+  }
+  return (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "http://localhost:8000/api/v1";
+};
+
 /** Centralised API configuration. Override with VITE_API_BASE_URL. */
 export const API_CONFIG = {
-  baseUrl: (import.meta.env.VITE_API_BASE_URL as string | undefined) ?? "http://localhost:8000/api/v1",
+  baseUrl: getInitialBaseUrl(),
   timeoutMs: 15_000,
   retries: 2,
-} as const;
+};
 
 /** Endpoints the future Python backend is expected to expose. */
 export const ENDPOINTS = {
