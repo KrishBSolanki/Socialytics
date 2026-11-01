@@ -33,6 +33,10 @@ export function SocialPulseShell() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    document.title = "SocialPulse - Social Media Sentiment & Brand Perception Intelligence";
+  }, []);
+
+  useEffect(() => {
     let active = true;
 
     async function initData() {
