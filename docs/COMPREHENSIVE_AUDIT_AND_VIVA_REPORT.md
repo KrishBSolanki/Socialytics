@@ -254,3 +254,4 @@ $$\begin{pmatrix}
 7. **Step 7: Prediction History & Database Audit**
    - Navigate to **Prediction History** (`/history` tab).
    - Verify that the earlier test statements appear in the SQLite audit log with exact timestamps, raw text, and predicted class labels.
+
